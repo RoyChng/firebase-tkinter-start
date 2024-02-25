@@ -127,10 +127,10 @@ class App(CTk):
     def query_all_orders(self):
 
         table_data = [
-            ["Item Name", "Customer", "Address", "Quantity", "Status"],
-            ["MacBook Pro", "John Doe", "123 Main St", "1", "Shipped"],
-            ["Galaxy S21", "Jane Smith", "456 Park Ave", "2", "Delivered"],
-            ["PlayStation 5", "Bob Johnson", "789 Broadway", "1", "Processing"],
+            ["Item Name", "Customer", "Address", "Status", "Quantity"],
+            ["MacBook Pro", "John Doe", "123 Main St", "Shipped", "1"],
+            ["Galaxy S21", "Jane Smith", "456 Park Ave", "Delivered", "2"],
+            ["PlayStation 5", "Bob Johnson", "789 Broadway", "Processing", "1"],
         ]
         
         return table_data
